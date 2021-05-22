@@ -20,7 +20,7 @@ namespace Publisher
 
                 var messages = Messages.GetMessageArray();
 
-                    for (int i = 0; i <= 12; i++)
+                for (int i = 0; i <= 12; i++)
                 {
                     string message = messages[i];
                     var body = Encoding.UTF8.GetBytes(message);
